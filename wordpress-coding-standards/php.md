@@ -355,7 +355,7 @@ $baz = sprintf(
     esc_html__( 'Hello, %s!', 'yourtextdomain' ),
     $friend_name
 );
- 
+
 $a = foo(
     $bar,
     $baz,
@@ -443,7 +443,7 @@ While this operator does exist in Core, it is often used lazily instead of doing
 
 Avoid touching the database directly. If there is a defined function that can get the data you need, use it. Database abstraction (using functions instead of queries) helps keep your code forward-compatible and, in cases where results are cached in memory, it can be many times faster.
 
-If you must touch the database, consider creating a [Trac](https://core.trac.wordpress.org/) ticket. There you can discuss the possibility of adding a new function to cover the functionality you wanted, for a future version of WordPress. 
+If you must touch the database, consider creating a [Trac](https://core.trac.wordpress.org/) ticket. There you can discuss the possibility of adding a new function to cover the functionality you wanted, for a future version of WordPress.
 
 ### Formatting SQL statements
 
